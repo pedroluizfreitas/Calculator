@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Thin.ttf');
+}
+
+/* Colocando o "*" que serve como referenciador universal para aplicar a todos os componentes */
+* {
+  font-family: 'RobotoMono', monospace;
+}
+
+/* Criando a tag body para ajustar a tela dentro do navegador */
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  /* Gradiente pego de um site: https://uigradients.com/#HarmonicEnergy */
+  /* Podemos ir no Ctrl+Shift+I e copiar o linear-gradiente. */
+  background: linear-gradient(to right, #314755, #26a0da);
+}

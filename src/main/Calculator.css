@@ -1,0 +1,13 @@
+.calculator {
+
+    height: 320px;
+    width: 235px;
+    border-radius: 3px;
+    /* The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area. */
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    /* 1fr utilizado para inserir a parte da tela da calculadora(display) */
+    grid-template-rows: 1fr 47px 47px 47px 47px 47px;
+
+}
